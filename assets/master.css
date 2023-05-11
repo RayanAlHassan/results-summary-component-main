@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
+}
+.result{
+    margin: 10px auto;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    background-color: rgb(65 47 230);
+    border-radius: 6%;
+    color: white;
+    position: relative;
+    left: -130px;
+
+}
+.result h1{
+    opacity: 0.5;
+    padding: 30px;
+    font-size: 13px;
+} 
+.result .grade{
+    width: 100px;
+    background-color: rgb(70 36 218);
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 49px;
+    align-content: center;
+
+}
+.result span{
+    padding-bottom: 5px;
+    font-size: 12px;
+    opacity: 0.5;
+}
+.result p{
+    opacity: 0.5;
+    font-size: 19px;
+    padding: 21px;
+}
+.summary {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 6%;
+    color: black;
+    position: absolute;
+    top: 9px;
+    left: 630px;
+    background-color: white;
+    z-index: -1;
+    box-shadow: 1px 1px 6px rgb(70 36 218);
+    
+}
+.summary .label {
+    width: 200px;
+    margin: 10px auto;
+    
+}
+.summary .label div{
+    height: 41px;
+    margin: 7px auto;
+    display: flex;
+    position: relative;
+    align-items: center; 
+}
+.summary img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.summary .label p{
+    position: absolute;
+    left: 33px;
+}
+.summary .label .score{
+    position: absolute;
+    left: 140px;
+}
+.one{
+    color: red;
+    background-color: rgb(255 246 245);
+}
+.two{
+    color: rgb(240 185 81);
+    background-color: rgb(255 251 242);
+}
+.three{
+    color:rgb(72 164 143) ;
+    background-color: rgb(242 251 250);
+}
+.four{
+    color:rgb(68 81 195) ;
+    background-color:rgb(243 243 253);
+}
+#btn{
+    background-color: rgb(48 59 89);
+    color: white;
+    width: 171px;
+    height: 35px;
+    border-radius: 26px;
+    margin: 20px;
+}
+footer{
+    width: 100%;
+    margin: 20px auto;
+}
